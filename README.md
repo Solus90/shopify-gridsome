@@ -51,3 +51,4 @@ Or you can manually edit the [Shopify Source Plugin's](https://gridsome.org/plug
 Enter the site folder, and run `gridsome develop` to start a local development server.
 
 Happy coding!
+# gridsome-shopify
