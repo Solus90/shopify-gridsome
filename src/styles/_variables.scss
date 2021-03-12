@@ -1,7 +1,7 @@
 @import "bulma/sass/utilities/initial-variables";
 @import "bulma/sass/utilities/functions";
 
-$primary: #161616;
+$primary: #127e2d;
 
 $info: $cyan;
 $success: $green;
@@ -39,7 +39,7 @@ $border-hover: $grey-light;
 
 // Text colors
 
-$text: $black-bis;
+$text: $primary;
 $text-invert: findColorInvert($text);
 $text-light: $grey-dark;
 $text-strong: $black;
@@ -69,8 +69,8 @@ $link-active-border: $grey-dark;
 
 // Typography
 
-$family-primary: "Karla", $family-sans-serif;
-$family-secondary: "Prata", $family-sans-serif;
+$family-primary: "roboto", $family-sans-serif;
+$family-secondary: "Montserrat", $family-sans-serif;
 $family-code: $family-monospace;
 
 $size-small: $size-7;

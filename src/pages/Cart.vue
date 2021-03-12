@@ -117,13 +117,13 @@ export default {
   computed: {
     cart () { return this.$store.state.cart },
     cartTotal () {
-      const total = this.cart.reduce((total, item) => total.add(currency(item.price.amount).multiply(item.qty)), currency(0, { formatWithSymbol: true, symbol: '£' }))
+      const total = this.cart.reduce((total, item) => total.add(currency(item.price.amount).multiply(item.qty)), currency(0, { formatWithSymbol: true, symbol: '$' }))
       return total.format()
     }
   },
   methods: {
     totalPrice ({ qty, price }) {
-      return currency(price.amount, { formatWithSymbol: true, symbol: '£' }).multiply(qty).format()
+      return currency(price.amount, { formatWithSymbol: true, symbol: '$' }).multiply(qty).format()
     },
     async removeItem (itemId) {
       await this.$store.commit('removeFromCart', itemId)

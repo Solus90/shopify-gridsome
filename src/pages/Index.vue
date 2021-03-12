@@ -8,7 +8,7 @@
           <div class="column is-two-fifths header">
             <div class="header-content">
               <h1 class="title is-size-1 is-family-secondary">
-                Our Core Collection
+                Phil's Pokemon Cards
               </h1>
               <div
                 v-html="collection.descriptionHtml"

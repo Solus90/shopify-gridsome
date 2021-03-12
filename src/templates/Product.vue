@@ -3,7 +3,6 @@
     <div class="container">
       <div class="columns">
         <div class="column is-three-fifths">
-          <figure class="image">
             <img
               :src="product.images[0].src"
               :alt="product.images[0].altText || product.title">
