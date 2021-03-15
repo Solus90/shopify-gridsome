@@ -72,7 +72,7 @@ query Collection ($id: ID!) {
       descriptionHtml
       priceRange {
         minVariantPrice {
-          amount(format: true, currency: "GBP")
+          amount(format: true, currency: "USD")
         }
       }
       images (limit: 1) {
