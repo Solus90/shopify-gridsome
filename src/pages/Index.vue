@@ -15,7 +15,7 @@
                 class="content" />
               <g-link
                 :to="`collection/${collection.handle}`"
-                class="button">
+                class="button is-primary is-rounded">
                 Shop Now
               </g-link>
             </div>
@@ -71,7 +71,7 @@
                 <div class="control">
                   <g-link
                     :to="`product/${product.handle}`"
-                    class="button is-primary is-outlined">
+                    class="button is-primary is-outlined is-rounded ">
                     View Product
                   </g-link>
                 </div>
